@@ -1,8 +1,8 @@
-# Imu-GPS Sensor Fusion with Iterative Error State Kalman Filter 
+# Imu-GNSS Sensor Fusion
+This repository Imu and GNSS based combined navigation using Iterative Error State Kalman Filter.
 
 
-
-# Contents 
+# How To Run
 1. `process_gnss`: sparse (10hz) global prior observation 
     - After executing it, you can fine the result file at `data/gnss_output.txt`
 2. `run_imu_integration`: imu only propagtations with no any measurements 
@@ -12,3 +12,5 @@
     - However, you can see some diverging moments when GNSS signals are off. 
 4. `./run_eskf_gins --with_odom=true`: SE3-like loss + Wheel-based Velocity loss 
     - This shows the best performance. It also would fix the failure points of the above experiment 3.
+
+# TODO
