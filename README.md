@@ -1,6 +1,7 @@
 # Imu-GNSS Sensor Fusion
 This repository Imu and GNSS based combined navigation using Iterative Error State Kalman Filter.
 
+[imu-gnss.webm](https://github.com/user-attachments/assets/50b2e0d1-e160-431b-bf99-0d340e52a013)
 
 # How To Run
 1. `process_gnss`: sparse (10hz) global prior observation 
