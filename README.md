@@ -14,3 +14,5 @@ This repository Imu and GNSS based combined navigation using Iterative Error Sta
     - This shows the best performance. It also would fix the failure points of the above experiment 3.
 
 # TODO
+1. Use Pre-integration and Graph Optimizaiton instead of Kalman filter.
+2. Use this code as a base for Lidar-Inertial-GNSS-Wheel Odometry using IESKF and a Graph Optimization counterpart to it.
